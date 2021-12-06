@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="suite">
+<test thread-count="4" name="test"  parallel="methods">
+
+
+<groups>
+
+<define name="Entertainment">
+<include name="Social"></include>
+<include name="Games"></include></define>
+
+
+<define name="Car">
+<include name="BMW"></include>
+<include name="AUDI"></include></define>
+
+<run>
+<include name="Entertainment"></include>
+<include name="Car"></include>
+</run>
+</groups>
+
+
+
+
+<classes>
+<class name="com.testng.Grouping_Test">
+</class>
+</classes>
+
+
+</test>
+</suite>
