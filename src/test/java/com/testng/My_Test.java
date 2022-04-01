@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 
 public class My_Test {
 	
-	@Test(retryAnalyzer = Retry_Class.class)
+	@Test
 	private void uName() {
 		String expected="Sashwin";
-		String actual="Sanvika";
+		String actual="Sashwin";
 		Assert.assertEquals(actual, expected);	
 	}
 	

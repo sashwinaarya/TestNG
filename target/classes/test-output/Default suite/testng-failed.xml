@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.SoftAssert">
+      <class name="com.testng_Nandhini.MyTest_Retry">
         <methods>
-          <include name="softAssert"/>
+          <include name="uName"/>
         </methods>
-      </class> <!-- com.testng.SoftAssert -->
+      </class> <!-- com.testng_Nandhini.MyTest_Retry -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

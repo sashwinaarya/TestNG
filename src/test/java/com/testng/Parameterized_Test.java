@@ -9,8 +9,8 @@ public class Parameterized_Test {
 	@Test
 	//@Parameters({“refname1”, “refname2”})
 	
-	@Parameters({"Username" ,"password"})
-	private void credential(@Optional("Sanvika") String username, @Optional("Sanvika")String password) {
+	@Parameters({"UserName" ,"password"})
+	private void credential(String username, @Optional("Sanvika")String password) {
 		
 		System.out.println("UN: " +username);
 		System.out.println("PW: " +password);

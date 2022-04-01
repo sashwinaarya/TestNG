@@ -4,7 +4,6 @@
   <test thread-count="2" name="Test" parallel="methods">
   
   <parameter name="Username" value="Sashwin"></parameter>
-  <parameter name="password" value="123456"></parameter>
   
   <classes>
   <class name="com.testng.Parameterized_Test"></class>

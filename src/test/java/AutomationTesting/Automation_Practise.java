@@ -17,7 +17,7 @@ public class Automation_Practise extends BaseClass {
 	
 	public static Page_Object_Manager pom=new Page_Object_Manager(driver);
 	
-
+	
 	
 	public static void main(String[] args) throws InterruptedException {
 			

@@ -10,19 +10,25 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Nandhu_Ignore {
+public class Depends_OnMethods {
 	
 
 	
 	@Test
-	private void login() {
-		System.out.println("Kidzzzzzz");
+	private void mobile() {
+		System.out.println("Mobile");
 
 	}
 	
-	@Test(dependsOnMethods = "login")
-	private void home_Page() {
-		System.out.println("Womennnnn");
+	@Test
+	private void laptop() {
+		System.out.println("Laptop");
+
+	}
+	
+	@Test(dependsOnMethods = "laptop")
+	private void offer() {
+		System.out.println("Offer");
 
 	}
 

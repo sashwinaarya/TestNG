@@ -3,7 +3,6 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="com.testng.Trnasformer"></listener>
-
 </listeners>
 
   <test thread-count="5" name="Test">

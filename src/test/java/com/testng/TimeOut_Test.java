@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class TimeOut_Test {
 	
 	
-	@Test(timeOut = 3000)
+	@Test(timeOut = 1000)
 	private void login_Page() throws InterruptedException {
 		
 		System.out.println("UserName");
